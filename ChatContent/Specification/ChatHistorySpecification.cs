@@ -19,6 +19,7 @@ namespace Specification
 
       //Assert
       Assert.IsNotNull(record);
+      Assert.AreEqual<string>("Immanuel Kant", record.ConversationName);
       Assert.AreEqual<string>("Hello!", record.ContentXml);
     }
 
@@ -34,6 +35,7 @@ namespace Specification
 
       //Assert
       Assert.IsNotNull(record);
+      Assert.AreEqual<string>("live:hume", record.AuthorId);
       Assert.AreEqual<string>("May I ask you a simple question?", record.ContentXml);
     }
 
@@ -49,6 +51,7 @@ namespace Specification
 
       //Assert
       Assert.IsNotNull(record);
+      Assert.AreEqual<ulong>(1516850226436UL, record.TimestampMs);
       Assert.AreEqual<string>("For sure. \r\nShoot!", record.ContentXml);
     }
 
@@ -64,6 +67,7 @@ namespace Specification
 
       //Assert
       Assert.IsNotNull(record);
+      Assert.AreEqual<string>("live:kant", record.AuthorId);
       Assert.AreEqual<string>("For sure. \r\nShoot!", record.ContentXml);
     }
 
@@ -79,6 +83,7 @@ namespace Specification
 
       //Assert
       Assert.IsNotNull(record);
+      Assert.AreEqual<string>("David Hume", record.AuthorName);
       Assert.AreEqual<string>("What is \"truth\"?", record.ContentXml);
     }
 
@@ -94,6 +99,7 @@ namespace Specification
 
       //Assert
       Assert.IsNotNull(record);
+      Assert.AreEqual<string>("-- ? T::Z", record.HumanTime);
       Assert.AreEqual<string>("Look, that is deep water.", record.ContentXml);
     }
 

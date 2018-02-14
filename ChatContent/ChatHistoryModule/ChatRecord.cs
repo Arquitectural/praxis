@@ -8,6 +8,7 @@
     public string AuthorName;
     public string HumanTime;
     public ulong TimestampMs;
+    public System.DateTime When;
     public string ContentXml;
   }
 }

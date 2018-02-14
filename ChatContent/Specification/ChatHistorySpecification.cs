@@ -103,6 +103,22 @@ namespace Specification
       Assert.AreEqual<string>("Look, that is deep water.", record.ContentXml);
     }
 
+    [TestMethod, TestCategory("SimpleText")]
+    public void Timestamp()
+    {
+      //Arrange
+      string chat_entry = "live:kant,Immanuel Kant,live:hume,David Hume,\"--?T::Z\",1517447422643,Cheers!";
+      var parser = new ChatHistoryModule.ChatRecordParser();
+
+      //Act
+      var record = parser.Parse(chat_entry);
+
+      //Assert
+      Assert.IsNotNull(record);
+      Assert.AreEqual<ulong>(1517447422643UL, record.TimestampMs);
+      Assert.AreEqual<DateTime>(DateTime.Parse("2018-01-31 19:10:22.643"), record.When);
+    }
+
     [TestMethod, TestCategory("XML_Emoticon")]
     public void Surprised()
     {

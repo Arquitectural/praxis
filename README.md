@@ -16,7 +16,7 @@ For example, the Exercise #2 requires basic skills on distributed computing conc
 
 ## Be a reflective practitioner
 
-☛ Please remember: whereas your next professional accountabilities might be as a high-ranking position, e.g., vice-president or any top management related position, or as a high-ranking architect, or as a senior technical leader, or as a top developer, in any of those, please remember that you always could do a better job if, besides direct knowledge and direct skills, you also do research second-order professional inquiries.
+☛ Please remember: whereas your next professional accountabilities might be as a high-ranking officer, e.g., vice-president or any top management related position, or as a high-ranking architect, or as a senior technical leader, or as a top developer, in any of those, please remember that you always could do a better job if, besides direct knowledge and direct skills, you also do research second-order professional inquiries.
 
 
 ## Some initial target skills

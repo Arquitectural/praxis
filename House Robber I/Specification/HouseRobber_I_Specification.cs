@@ -214,5 +214,20 @@ namespace Specification
       //Assert
       Assert.Fail("Exception expected.");
     }
+
+    [TestMethod]
+    public void Night7()
+    {
+      //Arrange
+      int[] house = { 0, 1, 99, 3, 4, 99, 6, 7, 1000, 1000 };
+
+      //Act
+      var loot1 = HouseRobber.HouseRobber_I.Algorithm1(house);
+      var loot2 = HouseRobber.HouseRobber_I.Algorithm2(house);
+
+      //Assert
+      Assert.IsTrue(loot1 == loot2, $"{nameof(loot1)}:{loot1} | {nameof(loot2)}:{loot2}");
+      Assert.AreEqual<int>(1205, loot1);
+    }
   }
 }

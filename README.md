@@ -47,6 +47,6 @@ For example, the Exercise #2 requires basic skills on distributed computing conc
 
 (13) Operating systems (Windows, Linux/Red Hat)
 
-(14) Visual Studio
+(14) Visual Studio / Visual Studio Code
 
 (15) Agile methods (Scrum, XP, etc.)

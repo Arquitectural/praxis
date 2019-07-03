@@ -21,7 +21,7 @@ For example, the Exercise #2 requires basic skills on distributed computing conc
 
 ## Some initial target skills
 
-(1) .NET Framework programmer
+(1) .NET Framework / .NET Core programmer
 
 (2) Technical leader
 

@@ -39,7 +39,7 @@ For example, the Exercise #2 requires basic skills on distributed computing conc
 
 (9) Windows Communication Foundation (WCF). SOAP and REST Web services
 
-(10) Razor / HTML5 / CSS3 / Bootstrap / jQuery
+(10) Razor / HTML5 / CSS3 / Bootstrap / jQuery / Blazor
 
 (11) ECMA Script (Javascript) / Angular
 
